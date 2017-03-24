@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Concierge Chatbot
+  host: concierge-chat
+  disk_quota: 1024M
+  services:
+  - Conversation-ig
